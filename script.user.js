@@ -9,6 +9,8 @@
 // @run-at document-start
 // @copyright 2018, Syleront
 // @homepage https://github.com/syleront/twitch-helper
+// @updateURL https://github.com/syleront/twitch-helper/raw/master/script.user.js
+// @downloadURL https://github.com/syleront/twitch-helper/raw/master/script.user.js
 // ==/UserScript==
 
 document.addEventListener("DOMContentLoaded", () => {
