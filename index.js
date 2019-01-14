@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name Twitch Helper
-// @description Small addon for twitch
-// @version 0.1
-// @author Syleront
-// @match *://*.twitch.tv/*
-// @connect api.twitch.tv
-// @grant GM_xmlhttpRequest
-// @run-at document-start
-// @copyright 2018, Syleront
-// @homepage https://github.com/syleront/twitch-helper
-// ==/UserScript==
-
 document.addEventListener("DOMContentLoaded", () => {
   const API = new TwitchApi();
   const listener = new DomChangesListener();
